@@ -42,7 +42,7 @@ def mined_minds_loop(numbers)
         
       elsif (numbers % 3 == 0 and !(numbers % 5 == 0))
           puts "Mined"
-        end
+        #end
 
 
       elsif (numbers % 5 == 0 and !(numbers % 3 == 0))
