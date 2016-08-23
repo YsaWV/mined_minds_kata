@@ -36,9 +36,9 @@
 
 def mined_minds_loop(numbers)
   100.times do
-    numbers = numbers+1
+    
       if (numbers % 5 == 0 and numbers % 3 == 0)
-          puts "Mined Minds"
+          puts "I <3 Mined Minds!"
         
       elsif (numbers % 3 == 0 and !(numbers % 5 == 0))
           puts "Mined"
@@ -57,7 +57,8 @@ def mined_minds_loop(numbers)
       else
         puts numbers
       end
+      numbers = numbers+1
   end
 end
 
-mined_minds_loop(0)
+mined_minds_loop(1)
