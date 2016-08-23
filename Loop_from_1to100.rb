@@ -42,18 +42,10 @@ def mined_minds_loop(numbers)
         
       elsif (numbers % 3 == 0 and !(numbers % 5 == 0))
           puts "Mined"
-        #end
-
 
       elsif (numbers % 5 == 0 and !(numbers % 3 == 0))
         puts "Minds"
 
-        #if (numbers % 5 == 0 and numbers % 3 == 0)
-         # puts "Mined Minds"
-        #end
-    #elsif (numbers % 5 == 0 and numbers % 3 == 0)
-      #puts "Mined Minds"
-      
       else
         puts numbers
       end
@@ -62,3 +54,13 @@ def mined_minds_loop(numbers)
 end
 
 mined_minds_loop(1)
+
+
+# puts (1..100).map {|i|
+#   f = i % 3 == 0 ? 'Minds ' : nil
+#   b = i % 5 == 0 ? 'Minds' : nil
+#   f || b ? "#{ f }#{ b }" : i
+#   }
+
+
+
